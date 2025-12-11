@@ -6,6 +6,7 @@ int main()
 }
 #include <stdio.h>
 
+int add()
 // 两数相减函数：返回 a - b 的结果
 int subtract(int a, int b) {
     return a - b;
