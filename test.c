@@ -9,6 +9,10 @@ int add(int a, int b) {
 int subtract(int a, int b) {
     return a - b;
 }
+//cheng fa
+int multiply(int a, int b) {
+    return a * b;
+}
 
 // 除法函数（处理除数为0的错误，返回整数商）
 int divide(int a, int b) {
@@ -26,6 +30,7 @@ int main() {
     // 输出加法、减法、除法结果
     printf("%d + %d = %d\n", num1, num2, add(num1, num2));
     printf("%d - %d = %d\n", num1, num2, subtract(num1, num2));
+    printf("%d x %d = %d\n", num1, num2, multiply(num1, num2));
     printf("%d ÷ %d = %d\n", num1, num2, divide(num1, num2));
 
     return 0;
